@@ -1,3 +1,7 @@
+#root {
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(133,127,127,0.8155637254901961) 35%, rgba(0,0,0,1) 100%);
+}
 .App {
   text-align: center;
   background-color:royalblue;
@@ -41,12 +45,17 @@
 
 .AboutMe {
   display:flex;
+  margin-bottom: 40px;
+}
+
+.Aboutme{
+padding: 20px;
+
 }
 
 .Aboutme p{
-position: relative;
-font-size: larger;
-
+  max-width: 70%;
+  color: white;
 }
 .nav {
   padding-left: 50px;
@@ -58,11 +67,48 @@ img{
   width: auto;
   height: 400px;
 }
-.Box { 
-  display: flex;
-    justify-content: space-around;
+
+.thingsILove {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding: 20px;
 }
 
-.Box * {
-  
+.thingsILove .card {
+  width: 22rem;
+  height: 22rem;
 }
+
+.card {
+  background: #f3f3f3;
+
+} 
+
+.Box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.github {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.skills {
+  margin-bottom: 20px;
+
+}
+
+.skills .badge {
+  padding: 10px;
+  margin-right: 40px;
+}
+
+/* .Box > div {
+  padding: 40px;
+  border: 1px solid black;
+  border-radius: 16px;
+} */

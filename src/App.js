@@ -6,6 +6,14 @@ import AboutMe from './components/AboutMe'
 import Box from './components/Box'
 import Skills from './components/Skills'
 import Work from './components/Work'
+
+const thingsILove = [
+  { src: "https://www.istockphoto.com/photos/technology", text: "Learning new technologies" },
+  { src: "https://en.wikipedia.org/wiki/React_%28JavaScript_library%29", text: "Working with React" },
+  { src: "https://www.tibco.com/blog/2017/12/20/tis-the-season-to-be-traveling/", text: "Travelling" },
+  { src: "https://www.nps.gov/asis/learn/nature/horses.htm", text: "Horses" },
+
+]
 function App() {
   return (
     <>
@@ -18,12 +26,12 @@ function App() {
       <AboutMe />
     </div>
     <div className="Box">
-      <Box />
+      <Box heading="Things I love" array={thingsILove}/>
       <Skills />
     </div>
-    <div className="Work">
+{/*     <div className="Work">
       <Work />
-    </div>
+    </div> */}
     </>
     
   );

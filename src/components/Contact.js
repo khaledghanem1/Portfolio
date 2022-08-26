@@ -1,15 +1,22 @@
+const contact = [
+    { src: "https://github.com/khaledghanem1", text: "Github"},
+    { src: "https://www.linkedin.com/in/ghanemk/", text: "LinkedIn"}
+  
+  ]
+
 function Contact() {
     return (
-        <div>
-        <h3>Connect with me</h3>
-        <a href="https://github.com/khaledghanem1">
-        <img src="" alt="git hub link"/>
-       </a>
-        <img src="" alt="linkedln link"/>
-
-        <img src="" alt="over link"/>
-
-    </div>
+        <>
+        <h2>Connect with Me</h2>
+        <div className="connect">
+          {contact.map((link, i) => (
+            <a href={link.src}>
+            <span key={i} class="badge rounded-pill text-bg-light">{link.text}</span>
+            </a>
+          ))}
+  
+        </div>
+        </>
     );
   }
   
