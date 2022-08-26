@@ -8,7 +8,7 @@ function Contact() {
     return (
         <>
         <h2>Connect with Me</h2>
-        <div className="connect">
+        <div className="skills">
           {contact.map((link, i) => (
             <a href={link.src}>
             <span key={i} class="badge rounded-pill text-bg-light">{link.text}</span>

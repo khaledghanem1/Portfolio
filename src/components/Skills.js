@@ -18,6 +18,7 @@ function Skills() {
         ))}
 
       </div>
+      <Contact />
       <h2>Github Projects</h2>
       {github.map((project, i) => (
         <div className="card github" key={i}>
@@ -31,6 +32,7 @@ function Skills() {
         </div>
 
       ))}
+
 
     </div>
   );
