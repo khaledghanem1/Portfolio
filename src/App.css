@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color:royalblue;
+  padding-top: 30px;
 }
 
 .App-logo {
@@ -35,4 +37,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.AboutMe {
+  display:flex;
+}
+
+.Aboutme p{
+position: relative;
+font-size: larger;
+
+}
+.nav {
+  padding-left: 50px;
+  font-size: larger;
+  font-style:inherit;
+  
+}
+img{
+  width: auto;
+  height: 400px;
+}
+.Box { 
+  display: flex;
+    justify-content: space-around;
+}
+
+.Box * {
+  
 }
