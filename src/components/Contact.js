@@ -7,7 +7,7 @@ const contact = [
 function Contact() {
     return (
         <>
-        <h2>Connect with Me</h2>
+        <h2 id="contact">Connect with Me</h2>
         <div className="skills">
           {contact.map((link, i) => (
             <a href={link.src}>
