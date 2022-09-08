@@ -2,6 +2,7 @@ import '../App.css'
 import Contact from './Contact'
 const skills = ["HTML", "CSS", "Javascript", "Node.js", "MySQl"]
 const github = [
+  { src: "https://github.com/LorenzoFTSIC/LFCoders", text: "Git Buddies", description: "React, Mongo, Node, and GraphQL proect to connect developers" },
   { src: "https://github.com/khaledghanem1/Social-Media-API", text: "Social Media API", description: "Create an API for a social media app" },
   { src: "https://github.com/khaledghanem1/Note-Taker", text: "Note Taker", description: "Note Taker with Local Storage" },
   { src: "https://github.com/khaledghanem1/Professional-README-Generator", text: "ReadMe Generator", description: "Automatically create professional README's" },
